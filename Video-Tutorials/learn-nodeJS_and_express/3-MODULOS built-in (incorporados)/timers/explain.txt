@@ -1,0 +1,27 @@
+El modulo Timers (Temposizador)
+
+contine funciones que ejecutan código luego de un cierto periodo de tiempo
+
+Esas funciones nos van a permitir que no se ejecutemos el código direcyamente en el momento en el que se procese esa linea de codigosino que vamos a esperar un cierto periodo de tiempoantes de ejecutarlo y asi vamos a simular o crear procesos asincronos
+
+Tres funciones muy utiles de este modulo son:
+1.- setTimeout():
+      Para ejecutar codigo luego de un numero especifico de milisegundos.
+  
+  Para referencia 1 segundo = 1000 milisegundos.
+
+    ejemplo:
+
+    setTimeout(funcion, retraso, argumento);
+
+2.- setImmediate()
+      para ejecutar código asíncronico en la próxima iteración del ciclo de eventos (lo más pronto posible)
+      Se ejecuta despues del codigo sincrono
+
+3.- setInterval()
+      para ejecutar codigo un numero infinito de veces con un retrazo especifico de milisegundos
+
+      ejemplo:
+
+      setInterval( funcion, intervalo, arg1, arg2);
+

@@ -1,0 +1,11 @@
+console
+Módulo built-in que implementa funcionalidad similar a la consola de un navegador web
+
+El fragmento de código "console" se refiere al objeto integrado de JavaScript que proporciona métodos para escribir mensajes en la consola del navegador. Se utiliza comúnmente con fines de depuración y registro de información.
+
+algunos metodos utiles son:
+console.log()
+console.warn()
+console.error()
+console.assert()
+console.table()

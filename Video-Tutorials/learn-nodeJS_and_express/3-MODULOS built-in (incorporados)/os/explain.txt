@@ -1,0 +1,5 @@
+El Módulo OS (Operating System)
+
+Contiene funcionalidad para obtener informacion sobre el sistema operativo en el cual se ejecuta la aplicacion
+
+no es un modulo convencional, se debe importar con "require"

@@ -1,0 +1,5 @@
+Módulo process
+
+Provee información sobre el proceso de nodeJS que se está ejecutando.
+
+Y tambien puede tener cierto control sobre el proceso.
