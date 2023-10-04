@@ -1,0 +1,24 @@
+.JSON
+
+Es un "formato de texto" usado para almacenar y transportar inmformacion entre el cliente y el servidor
+
+Significado:
+    JSON --> JS (JavaScript) y ON (Object Notation)
+
+JSON está basado en la notacion de objetos de javaScript pero es solo texto.
+
+Nos permite almacenar objetos de Javascript como texto
+
+Ese formato es independiente del lenguaje de programacion con el cual estas trabajando
+
+Su uso es especidicamente entre comunicacion:
+    CLIENTE ---> SERVIDOR 
+        <---JSON--->
+    SERVIDOR ---> CLIENTE
+
+Caracteristicas:
+  - los datos se representan como "pares clave-valor" (propiedades)
+  - los pares deben estar separados por una coma ","
+  - pueden contener distintos tipos de datos: cadenas de caracteres, Numeros, arreglos, valores booleanos, objetos
+  
+  

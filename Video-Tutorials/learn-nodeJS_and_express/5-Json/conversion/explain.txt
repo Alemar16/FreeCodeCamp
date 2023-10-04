@@ -1,0 +1,12 @@
+La conversion de .JSON a JS ó JS a .JSON
+
+Podemos convertir del formato .json una informacion que está representada en este formato a un objeto de JavaScript, que podemos usar para trabajar con esa informacion en nuestro programa, y tambien podemos hacer lo opuesto, de un objeto de javaScript podemos obtener esa informacion en formato.json para poder transmitirla.
+
+para hacer la conversion de:
+
+.JSON --> JavaScript ====> [JSON.parse()]
+
+JavaScript --> .JSON ===> [JSON.stringify()]
+
+esto es una forma muy poderosa de transmitir la informacion.
+debido a que mientras los datos esten en transferencia se conservan en formato string o cadena de texto. pero cuando queramos ingresar a esos datos usamos los metodos para tranformarlos en objeto y poder utilizar cada uno de las propiedades de ese dato en particular. 
