@@ -1,0 +1,25 @@
+NPM 
+  npm es el archivo de software mas grande del mundo que contiene "paquetes" que puedes instalar instalar y usar con Node.js
+
+  Tambien es una herramienta para la línea de comandos
+
+Paquetes:
+  Es un conjunto de archivos o directorios que estan descriptos por un archivo "package.json"
+
+Módulo:
+  Es cualquier archivo o directorio en el directorio "node_modules" que puede ser importado con require()
+
+node_modules:
+  Es un archivo que contiene todos los paquetes de las tecnologias que se usaran en la aplicacion y se instala cuando se crea el package.json
+
+dependencias:
+  es un paquete que depende de otro modulo. es decir un paquete que otro paquete necesita para funcionar correctamente
+
+crear un archivo package.json:
+  en la terminal:
+                  npm init [forma clasica]
+                  npm init --yes [forma rápida]
+
+
+package.json:
+  es un objeto que contiene informacion de los paquetes y sus versiones.
