@@ -1,0 +1,17 @@
+Módulo fs (File System) Sistema de archivos
+
+Modulo que contiene funcionalidad muy util para trabajar con el sistema de archivos.
+
+operaciones utiles:
+  Leer
+  Modificar
+  Copiar
+  Elimibar
+  Cambiar nombre
+
+Todos los metodos de este modulo son asincronos por defecto.
+
+Sin embargo, se puede escoger versiones sincronicas de estos metodos agregando "Sync" a sus nombres. para que no sea un proceso parelelo.
+
+  ejemplo:
+            fs.rename()  [asincrono]   == cambia a ==>  fs.renameSync()  [sincrono]
