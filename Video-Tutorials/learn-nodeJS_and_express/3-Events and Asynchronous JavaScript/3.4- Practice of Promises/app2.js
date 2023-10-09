@@ -16,6 +16,7 @@ const miPedidoDePizza = new Promise((resolve, reject) => {
 });
 
 /* 
+//LOGICA 0
 const manejarPedido = (mensajeDeConfirmacion) => {
   console.log(mensajeDeConfirmacion);
 };
@@ -29,6 +30,7 @@ miPedidoDePizza.then(manejarPedido, rechazarPedido);
 */
 
 //otra forma de resumir la misma logica
+//LOGICA 2
 miPedidoDePizza
   .then((mensajeDeConfirmacion) => {
     console.log(mensajeDeConfirmacion)
@@ -36,3 +38,5 @@ miPedidoDePizza
  .then(null, (mensajeDeError) => {
     console.log(mensajeDeError)
  })
+
+ 
